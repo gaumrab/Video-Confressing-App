@@ -1,0 +1,59 @@
+    body{
+    padding: 100;
+    margin: 100;
+    display: flex;
+    justify-content: center;
+  }    
+
+  #message-container {
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  #message-container div {
+    margin-top : 10px;
+    border-radius : 20px;
+    height: 29px;
+    background-color: lightblue;
+    padding: 5px;
+  }
+
+  #message-container div:nth-child(2n) {
+    background-color: lightgreen;
+  }
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+  }
+
+  #message-input {
+    flex-grow: 1;
+    border-radius : 100px;
+    height: 50px;
+    font-size: 30px;
+    border-width : 15px;
+    border-color : lightblue;
+    border-color : lightblue;
+  }
+  #send-button{
+    background-color : lightblue;
+    border-radius : 20px;
+    margin-left: 10px;
+    font-size:15px;
+  }
+  .back:hover{background-color: lightblue;}
+  .back{
+    color:rgb(32, 138, 204);
+    height: 25px;
+    border-radius: 100px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  #send-button:hover{ background-color: rgb(39, 153, 219);}

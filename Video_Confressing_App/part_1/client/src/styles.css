@@ -1,0 +1,16 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.616)
+    ),
+    url(https://static.vecteezy.com/system/resources/previews/008/079/335/original/empty-showcase-abstract-pastel-color-background-3d-illustration-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
